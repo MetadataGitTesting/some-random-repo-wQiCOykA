@@ -2,6 +2,21 @@ name: sung.nicolas
 description: User fork
 version: 1
 author: tai.ebert@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: tai.ebert@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 13:57:25'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Lamont_Breitenberg:
+    name: Lamont_Breitenberg
+    description: Really solid info
+    createdAt: '2022-01-04 13:57:25'
+    author: tai.ebert@yahoo.com
